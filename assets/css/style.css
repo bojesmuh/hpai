@@ -1,0 +1,298 @@
+body{
+	font-family: 'Lato', sans-serif;
+	/*font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Raleway', sans-serif;*/
+}
+.navbar-menu-top{
+	background-color: #7AA354;
+	border-color: #7AA354;
+	border-radius: 0px;
+}
+.navbar-menu-top > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7AA354;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #7AA354;
+}
+.nav-right{
+	float: right !important;
+	margin-right: -15px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 0px;
+	height: 93px;
+	box-shadow: 0 5px 50px rgba(40,40,40,.32);
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-collapse{
+	margin-top: 23px;
+}
+
+.navbar-nav {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    margin-left: -210px;
+}
+.navbar-right {
+    float: right !important;
+     margin-right: 15px; 
+     margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #7AA354;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #7AA354;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #979797;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.languange{
+	width: 100%;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #5cb85c;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-success-border {
+    color: #5cb85c;
+    background-color: #fff;
+    border-color: #4cae4c;
+}
+.btn-success-border:hover {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+/*Slider*/
+.hpai-slider{
+	margin-top: 93px;
+}
+.banner {
+	width: 100%; 
+	height: 560px !important;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%; 
+    height: 400px;
+  }
+
+/*logo*/
+.logo-hpai{
+	width: 30%;
+	position: relative;
+	bottom: 10px;
+}
+.logo-hni{
+	width: 35%;
+}
+
+/*Tentang Kami*/
+.tentang-kami{
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+.logo-tentangkami{
+	list-style: none;
+}
+.logo-tentangkami li{
+	display: inline-block;
+	width: 35%;
+	margin: 0 10px 0 0;
+}
+.style-btn-tentangkami{
+	margin-top: 20px;
+}
+.hpai-judul-color{
+	color: #7aa354;
+}
+.hpai-judul {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+.hpai-text-tentangkami{
+	width: 90%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+
+}
+.hpai-style-tentangkami{
+	margin-bottom: 30px;
+	margin-top: 70px;
+}
+.hpai-judul-line{
+	height: 4px;
+    width: 80px;
+    background-color: #7aa354;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*Produk*/
+.produk{
+	background-color: #f5f5f5;
+	/*margin-bottom: 50px;*/
+}
+.hpai-style-produk{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.box-produk{
+	border-radius: 5px;
+	border: 1px solid #e9e9e9;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+.style-center{
+	text-align: -webkit-center;
+}
+.img-produk{
+	width: 35%;
+	margin: 20px 0 0 0;
+}
+.hpai-produk-title h3{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+
+}
+.hpai-produk-desc p{
+	margin: 20px 15px 0px 15px;
+}
+.hpai-style-btn-produk{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*promosi*/
+
+.hpai-styel-promosi{
+	margin-bottom: 50px;
+}
+
+/*Galeri*/
+.hpai-galeri{
+	background-color: #f5f5f5;
+}
+.box-title-galeri{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	width: 89%;
+}
+.box-title-galeri h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+/*Footer*/
+.hpai-footer{
+	font-family: 'Raleway', sans-serif;
+	background-color: #7aa354;
+	color: #fff;
+
+}
+.hpia-style-footer{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.hpia-style-footer-store{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.icon-store{
+	list-style: none;
+}
+.icon-store li{
+	margin: 20px;
+}
+.icon-store img{
+	width: 50%;
+}
+.icon-sosmed{
+	font-size: 30px;
+	list-style: none;
+	padding: 0;
+}
+.icon-sosmed li{
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.icon-sosmed li a{
+	color: #fff;
+}
+.icon-sosmed li a:hover{
+    color: #020202;
+}
+.footer-copyright{
+	margin-top: 5px;
+	color: #797979;
+	font-size: 14px;
+}
